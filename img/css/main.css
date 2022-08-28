@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy';
+    /* padding: 0;
+    margin: 0; */
+    background-color: #0B1D26;
+    background-image: url(./../img/bg/bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+
+
+
+
+/* BASE */
+
+.container-wide {
+    width: 1790px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/* HEADER */
+
+.header {
+    padding-top: 64px;
+}
+
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.nav {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav li + li {
+    margin-left: 40px;
+}
+
+.nav li {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+.nav a:hover {
+    color: #FBD784;
+}
+
+.account {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in; /* для ховера */
+}
+.account:hover {
+    color: #FBD784;
+}
