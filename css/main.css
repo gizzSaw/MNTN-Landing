@@ -174,14 +174,23 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
+
+
 
 /*ARTICE*/
 
+
+
 .article {
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.article:nth-child(even){
+    flex-direction: row-reverse;
 }
 .article-text {
     position: relative;
